@@ -6,5 +6,4 @@ function remove_text_highlight( details ) {
 	}
 }
 
-// chrome.webRequest.onBeforeRequest.addListener( remove_text_highlight, { urls: ["*://www.amazon.com/*", "*://www.amazon.co.uk/*", "*://amazon.com/*", "*://amazon.co.uk/*"] }, ["blocking"] );
 chrome.webRequest.onBeforeRequest.addListener( remove_text_highlight, {urls: ["<all_urls>"]}, ["blocking"] );

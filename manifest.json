@@ -8,10 +8,6 @@
 		"webRequest",
 		"webRequestBlocking",
 		"<all_urls>"
-		// "*://www.amazon.com/*",
-		// "*://www.amazon.co.uk/*",
-		// "*://amazon.com/*",
-		// "*://amazon.co.uk/*"
 	],
 
 	"background": {
