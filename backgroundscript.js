@@ -1,7 +1,7 @@
 function remove_text_highlight( details ) {
-	if ( details.url.match( /:~:text=/ ) != null) {
+	if ( details.url.match( /:~:text=*/ ) != null) {
 		return {
-			redirectUrl: details.url.replace( /(:~:text=)/, '' )
+			redirectUrl: details.url.replace( /(:~:text=*)/, '' )
 		};
 	}
 }
