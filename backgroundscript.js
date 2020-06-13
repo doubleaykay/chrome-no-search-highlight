@@ -1,9 +1,10 @@
-function remove_affiliate_links( details ) {
-	if ( details.url.match( /&tag=[a-zA-Z0-9\-]*/ ) != null) {
+function remove_text_highlight( details ) {
+	if ( details.url.match( /:~:text=/ ) != null) {
 		return {
-			redirectUrl: details.url.replace( /(&tag=[a-zA-Z0-9\-]*)/, '' )
+			redirectUrl: details.url.replace( /(:~:text=)/, '' )
 		};
 	}
 }
 
-chrome.webRequest.onBeforeRequest.addListener( remove_affiliate_links, { urls: ["*://www.amazon.com/*", "*://www.amazon.co.uk/*", "*://amazon.com/*", "*://amazon.co.uk/*"] }, ["blocking"] );
+// chrome.webRequest.onBeforeRequest.addListener( remove_text_highlight, { urls: ["*://www.amazon.com/*", "*://www.amazon.co.uk/*", "*://amazon.com/*", "*://amazon.co.uk/*"] }, ["blocking"] );
+chrome.webRequest.onBeforeRequest.addListener( remove_text_highlight, {urls: ["<all_urls>"]}, ["blocking"] );
