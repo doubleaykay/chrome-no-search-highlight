@@ -6,7 +6,8 @@
 
 	"permissions": [
 		"webRequest",
-		"webRequestBlocking"
+		"webRequestBlocking",
+		"<all_urls>"
 		// "*://www.amazon.com/*",
 		// "*://www.amazon.co.uk/*",
 		// "*://amazon.com/*",
