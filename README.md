@@ -1,6 +1,9 @@
 # Remove Search Highlighting
 A Chrome extension to prevent Google Search from highlighting text in webpages.
 
+## How to install
+Download ZIP of the repo, extract somewhere, and then install as an "unpacked Chrome Extension" via instructions here: https://stackoverflow.com/a/24577660
+
 ## What are you talking about?
 See: https://www.theverge.com/2020/6/4/21280115/google-search-engine-yellow-highlight-featured-snippet-anchor-text
 
