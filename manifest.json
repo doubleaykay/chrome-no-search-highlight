@@ -1,16 +1,16 @@
 {
 	"manifest_version": 2,
-	"name": "Remove Affiliate Links",
-	"description": "Removes Amazon affiliate codes from links",
+	"name": "Remove Search Highlighting",
+	"description": "Prevents Google Search from highlighting text on webpages",
 	"version": "0.1",
 
 	"permissions": [
 		"webRequest",
-		"webRequestBlocking",
-		"*://www.amazon.com/*",
-		"*://www.amazon.co.uk/*",
-		"*://amazon.com/*",
-		"*://amazon.co.uk/*"
+		"webRequestBlocking"
+		// "*://www.amazon.com/*",
+		// "*://www.amazon.co.uk/*",
+		// "*://amazon.com/*",
+		// "*://amazon.co.uk/*"
 	],
 
 	"background": {
