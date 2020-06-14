@@ -1,6 +1,9 @@
 # No Search Highlight
 A Chrome extension to prevent Google Search from highlighting text in webpages.
 
+## How do I install it?
+Download the zip file from the releases tab, unzip it somewhere, and install as an "Unpacked Extension." If this goes up on the Chrome Web Store, you can install it from there too (link will be provided).
+
 ## How does it work?
 When Chrome wants to load a URL that contains the following flag: `#:~:text=`, this extension replaces the flag and subsequent part of the URL with nothing then tells Chrome to load that modified URL.
 
