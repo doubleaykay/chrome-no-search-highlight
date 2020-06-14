@@ -14,3 +14,5 @@ See: https://github.com/WICG/scroll-to-text-fragment
 This repo is forked from https://github.com/johngodley/chrome-remove-affiliate-links. Thank you @johngodley for the initial code.
 
 I modified the extension to work on all webpages and only remove the part of the URL Google injects to highlight text.
+
+Icons by Dan Strauss. Thanks :)
