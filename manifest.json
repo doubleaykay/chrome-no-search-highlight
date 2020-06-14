@@ -1,8 +1,14 @@
 {
 	"manifest_version": 2,
-	"name": "Remove Search Highlighting",
+	"name": "No Search Highlight",
 	"description": "Prevents Google Search from highlighting text on webpages",
-	"version": "0.1",
+	"version": "1.0",
+	"icons": {
+		"16": "res/extension_icon16.png",
+		"32": "res/extension_icon32.png",
+		"48": "res/extension_icon48.png",
+		"128": "res/extension_icon128.png"
+	  },
 
 	"permissions": [
 		"webRequest",
