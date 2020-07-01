@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "No Search Highlight",
 	"description": "Prevents Google Search from highlighting text on webpages",
-	"version": "1.0",
+	"version": "1.1",
 	"icons": {
 		"16": "res/extension_icon16.png",
 		"32": "res/extension_icon32.png",
